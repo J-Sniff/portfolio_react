@@ -7,7 +7,7 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['n', 'i', 'f', 'f']
-  const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'r', 'l', 'o', 'p', 'e', 'r', '.']
+  const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -36,7 +36,7 @@ const Home = () => {
             <br />
             <AnimatedLetters letterClass={letterClass}
             strArray={jobArray}
-            idx={21} />
+            idx={22} />
             </h1>
             <h2>Frontend Developer / JavaScript / React</h2>
             <Link to="/contact" className='flat-button'>CONTACT ME</Link>
