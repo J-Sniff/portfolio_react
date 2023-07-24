@@ -19,7 +19,7 @@ const Logo = () => {
         opacity: 1,
       })
       .from(outlineLogoRef.current, {
-        drawSVG: 0,
+        drawSVG: true,
         duration: 20,
       })
 
