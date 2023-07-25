@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.scss'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
@@ -7,6 +7,7 @@ import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const form = useRef()
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -21,12 +22,20 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_d1muboc', 'template_jsxtw9w', form.current, 'SlKpFgdaiQT-ZaTrG')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    const serviceKey = process.env.REACT_APP_SERVICE_KEY;
+    const templateKey = process.env.REACT_APP_TEMPLATE_KEY;
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+
+    emailjs.sendForm(serviceKey, templateKey, form.current, publicKey)
+    .then(
+      () => {
+        alert('Message successfully sent!')
+        window.location.reload(false)
+      },
+      () => {
+        alert('Failed to send the message, please try again')
+      }
+    )
   };
 
   return (
@@ -46,7 +55,7 @@ const Contact = () => {
             questions please feel free to contact me!
           </p>
           <div className="contact-form">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
