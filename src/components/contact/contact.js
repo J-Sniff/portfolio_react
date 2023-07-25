@@ -3,6 +3,7 @@ import './contact.scss'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,6 +17,17 @@ const Contact = () => {
       clearTimeout(timeoutId)
     }
   }, [])
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_d1muboc', 'template_jsxtw9w', form.current, 'SlKpFgdaiQT-ZaTrG')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <>
