@@ -1,8 +1,8 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "homepage": "https://j-sniff.github.io/portfolio_react/",
-  "private": true,
+  "homepage": "https://J-Sniff.github.io/portfolio_react",
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
