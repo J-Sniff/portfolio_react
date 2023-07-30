@@ -3,7 +3,7 @@
     {
       "cover": "../portfolio/1/celestial-insights.png",
       "title": "Celestial Insights",
-      "description": "Starry web application using a NASA and Horoscope API",
+      "description": "Starry app using a NASA and Horoscope API",
       "url": "https://jewelisjojo4life.github.io/Celestial_Insights/"
     },
     {
@@ -11,6 +11,12 @@
       "title": "Weather Chaser",
       "description": "5 day weather forecast for any state",
       "url": "https://j-sniff.github.io/Weather-Chaser/"
+    },
+    {
+      "cover": "../portfolio/1/zenify.png",
+      "title": "Zenify",
+      "description": "A stress relief application",
+      "url": "https://whispering-sea-09039-50a149ea49a2.herokuapp.com/"
     }
   ]
 }
