@@ -1,7 +1,7 @@
 {
   "portfolio": [
     {
-      "cover": "../portfolio/1/one.png",
+      "cover": "../portfolio/1/celestial-insights.png",
       "title": "Celestial Insights",
       "description": "Starry web application using a NASA and Horoscope API",
       "url": "https://jewelisjojo4life.github.io/Celestial_Insights/"
