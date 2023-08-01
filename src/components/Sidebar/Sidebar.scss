@@ -9,16 +9,17 @@
 
   .logo {
     display: block;
-    padding: 8px;
+    padding-bottom: 3px;
 
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 44px;
       height: auto;
 
       &.sub-logo {
         width: 50px;
+        margin-right: 6px;
       }
     }
   }
