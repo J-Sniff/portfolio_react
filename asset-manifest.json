@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.bd3373fa.css",
-    "main.js": "/portfolio_react/static/js/main.b2491ddc.js",
+    "main.js": "/portfolio_react/static/js/main.bdabcb14.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio_react/static/js/787.aeca62f9.chunk.js",
     "static/media/logo_sub3.png": "/portfolio_react/static/media/logo_sub3.f37efead978f97c9bb00.png",
     "static/media/fleur-de-lis.png": "/portfolio_react/static/media/fleur-de-lis.fc65c8b028ca63981a44.png",
@@ -11,11 +11,11 @@
     "static/media/LaBelleAurore.woff2": "/portfolio_react/static/media/LaBelleAurore.31d6cfe0d16ae931b73c.woff2",
     "static/media/helvetica-neu.ttf": "/portfolio_react/static/media/helvetica-neu.31d6cfe0d16ae931b73c.ttf",
     "main.bd3373fa.css.map": "/portfolio_react/static/css/main.bd3373fa.css.map",
-    "main.b2491ddc.js.map": "/portfolio_react/static/js/main.b2491ddc.js.map",
+    "main.bdabcb14.js.map": "/portfolio_react/static/js/main.bdabcb14.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio_react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3373fa.css",
-    "static/js/main.b2491ddc.js"
+    "static/js/main.bdabcb14.js"
   ]
 }
