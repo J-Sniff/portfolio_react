@@ -19,6 +19,12 @@
       "url": "https://whispering-sea-09039-50a149ea49a2.herokuapp.com/"
     },
     {
+      "cover": "../portfolio/1/photolio.png",
+      "title": "Photolio",
+      "description": "A photopher portfolio made with GSAP's scrolltrigger",
+      "url": "https://j-sniff.github.io/photolio/"
+    },
+    {
       "cover": "../portfolio/1/calculator.png",
       "title": "Calculator_JS",
       "description": "A simple calculator made with JS",
